@@ -1,1 +1,10 @@
-helloooooooooooooooohelloooooooooooooooohelloooooooooooooooohelloooooooooooooooohelloooooooooooooooohelloooooooooooooooohelloooooooooooooooohelloooooooooooooooohelloooooooooooooooo
+node {
+  stage('Clone Repository') {
+    
+  }
+
+  stage('Run ls Command') {
+    sh 'ls'
+  }
+}
+
